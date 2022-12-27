@@ -13,7 +13,7 @@ public class DriveLinkedList  {
             }
         }
         long end = System.currentTimeMillis();
-        System.out.println("Adding time:-  " + (end-start));
+        System.out.println("LinkedList Adding time:-  " + (end-start));
 
 
 
@@ -25,7 +25,7 @@ public class DriveLinkedList  {
           }
       }
       end = System.currentTimeMillis();
-      System.out.println("Random searching time:- " + (end-start));
+      System.out.println("LinkedList Random searching time:- " + (end-start));
 
 
       /* start = System.currentTimeMillis();
@@ -43,10 +43,10 @@ public class DriveLinkedList  {
 
         start = System.currentTimeMillis();
       linkedList.sortList();
-        System.out.println(linkedList);
+        linkedList.toString();
         end = System.currentTimeMillis();
 
-        System.out.println("Time it takes to sort and print :- " + (end-start) );
+        System.out.println(" LinkedList Time it takes to sort and print :- " + (end-start) );
 
 
 
@@ -60,11 +60,10 @@ public class DriveLinkedList  {
 
      }
      end = System.currentTimeMillis();
-        System.out.println("Time it takes to remove :- " + (end-start));
+        System.out.println("LinkedList Time it takes to remove :- " + (end-start));
 
 
-
-
+        System.out.println(linkedList.size());
 
 
 

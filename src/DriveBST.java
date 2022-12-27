@@ -19,7 +19,7 @@ public class DriveBST {
         end= System.nanoTime();
         total = (end -start)/1000000;
 
-        System.out.println("Adding time:-  " + total + "ms");
+        System.out.println("BST Adding time:-  " + total + "ms");
 
 
 
@@ -32,19 +32,21 @@ public class DriveBST {
         }
         end = System.nanoTime();
         total = (end -start)/1000000;
-        System.out.println("Random searching time:- " + total + "ms");
+        System.out.println("BST Random searching time:- " + total + "ms");
 
 
         start = System.nanoTime();
 
-    /* try(Scanner scan = new Scanner(new BufferedReader(new FileReader("Data.txt")));
+     try(Scanner scan = new Scanner(new BufferedReader(new FileReader("Data.txt")));
          Scanner scan2 = new Scanner(new BufferedReader(new FileReader("newData.txt")))){
          while (scan.hasNextLine()){
-             tree.update(Integer.parseInt(scan.nextLine()),Integer.parseInt(scan2.nextLine()));
+             if(!scan.nextLine().equals(scan2.nextLine()))
+               tree.update(Integer.parseInt(scan.nextLine()),Integer.parseInt(scan2.nextLine()));
          }
      }
-     end = System.currentTimeMillis();
-        System.out.println("Updating time:- " + (end-start));*/
+     end = System.nanoTime();
+        total = (end -start)/1000000;
+        System.out.println("BST Updating time:- " + total + "ms");
 
 
 
@@ -53,7 +55,7 @@ public class DriveBST {
         end = System.nanoTime();
         total = (end -start)/1000000;
 
-        System.out.println("Time it takes to sort and print :- " + total + "ms");
+        System.out.println("BST Time it takes to sort and print :- " + total + "ms");
 
 
 
@@ -69,7 +71,7 @@ public class DriveBST {
         end = System.nanoTime();
         total = (end -start)/1000000;
 
-        System.out.println("Time it takes to remove :- " + total + "ms");
+        System.out.println("BST Time it takes to remove :- " + total + "ms");
 
 
 
