@@ -65,6 +65,7 @@ public class MapDrive {
         }
         end = System.currentTimeMillis();
         System.out.println("Map Time it takes to remove :- " + (end-start));
+         System.out.println("size after removing :- "+ map.size());
 
 
 

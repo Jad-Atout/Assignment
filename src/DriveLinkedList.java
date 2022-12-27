@@ -28,7 +28,7 @@ public class DriveLinkedList  {
       System.out.println("LinkedList Random searching time:- " + (end-start));
 
 
-      /* start = System.currentTimeMillis();
+       start = System.currentTimeMillis();
 
     try(Scanner scan = new Scanner(new BufferedReader(new FileReader("Data.txt")));
          Scanner scan2 = new Scanner(new BufferedReader(new FileReader("newData.txt")))){
@@ -37,7 +37,7 @@ public class DriveLinkedList  {
          }
      }
      end = System.currentTimeMillis();
-        System.out.println("Updating time:- " + (end-start));*/
+        System.out.println("Updating time:- " + (end-start));
 
 
 
@@ -63,7 +63,7 @@ public class DriveLinkedList  {
         System.out.println("LinkedList Time it takes to remove :- " + (end-start));
 
 
-        System.out.println(linkedList.size());
+        System.out.println("size after removing :- "+ linkedList.size());
 
 
 

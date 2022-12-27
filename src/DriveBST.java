@@ -72,6 +72,7 @@ public class DriveBST {
         total = (end -start)/1000000;
 
         System.out.println("BST Time it takes to remove :- " + total + "ms");
+        System.out.println("size after removing :- "+ tree.size());
 
 
 
